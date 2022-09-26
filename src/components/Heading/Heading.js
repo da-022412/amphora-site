@@ -6,7 +6,7 @@ const Heading = ({ level, ...rest }) => {
 
 const StyledHeading = styled.h1`
     color: var(--color-text);
-    font-family: var(--primary-font);
+    font-family: var(--heading-font);
     font-size: var(--heading-1);
 `;
 
