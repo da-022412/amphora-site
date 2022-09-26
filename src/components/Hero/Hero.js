@@ -9,7 +9,7 @@ import HeroImage from '../../assets/images/amphora-hero.webp';
 import backGround from '../../assets/images/space-bg.webp';
 
 const Hero = () => {
-    const placeholderText = [{ type: 'heading1', text: 'Amphora Creative' }];
+    const heroText = [{ type: 'text', text: 'Amphora Creative' }];
 
     const container = {
         visible: {
@@ -27,7 +27,7 @@ const Hero = () => {
                     animate='visible'
                     variants={container}>
                     <Heading>
-                        {placeholderText.map((item, index) => {
+                        {heroText.map((item, index) => {
                             return <AnimatedText {...item} key={index} />;
                         })}
                     </Heading>
