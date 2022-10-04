@@ -6,8 +6,8 @@ const BodyText = ({ children }) => {
 
 const Wrapper = styled.p`
     color: var(--text-color);
-    font-family: var(--primary-font);
-    font-size: var(--body-text);
+    font-family: var(--font-primary);
+    font-size: var(--text-body);
 `;
 
 export default BodyText;

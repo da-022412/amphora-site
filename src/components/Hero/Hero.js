@@ -60,12 +60,12 @@ const Wrapper = styled.section`
         background: linear-gradient(
             180deg,
             rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, 0.75) 100%
+            rgba(0, 0, 0, 1) 100%
         );
         bottom: 0;
         content: '';
         display: block;
-        height: 60px;
+        height: 100px;
         left: 0;
         position: absolute;
         width: 100%;
@@ -74,7 +74,7 @@ const Wrapper = styled.section`
 
 const StyledDiv = styled.div`
     margin: auto;
-    width: var(--site-width);
+    width: var(--width-full);
 `;
 
 const Figure = styled.div`

@@ -6,16 +6,17 @@ export function toEm(size, base = 16) {
 
 export const GlobalStyles = createGlobalStyle`
     :root {
-        --body-text: ${toEm(20)};
+        --font-heading: Ogg, serif;
+        --font-primary: proxima-nova, sans-serif;
         --heading-1: ${toEm(80)};
         --heading-2: ${toEm(64)};
         --heading-3: ${toEm(64)};
         --heading-4: ${toEm(28)};
-        --heading-font: Ogg, serif;
         --heading-weight: 400;
-        --primary-font: proxima-nova, sans-serif;
-        --site-width: 1200px;
+        --space-lg-padding: 100px 0;
+        --text-body: ${toEm(20)};
         --text-color: #fff;
+        --width-full: min(1200px, 90%);
     }
 
     @media (max-width:767px) {
