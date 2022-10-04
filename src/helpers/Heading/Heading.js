@@ -7,7 +7,7 @@ const Heading = ({ level, ...rest }) => {
 const StyledHeading = styled.h1`
     color: var(--color-text);
     font-family: ${(props) =>
-        props.level == 3 ? 'var(--primary-font)' : 'var(--heading-font'};
+        props.level === 3 ? 'var(--primary-font)' : 'var(--heading-font)'};
     font-size: var(--heading-1);
     font-weight: var(--heading-weight);
 `;

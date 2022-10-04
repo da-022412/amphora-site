@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import styled from 'styled-components';
 
-import Heading from '../Heading';
+import Heading from '../../helpers/Heading';
 import AnimatedText from './AnimatedText';
-import BodyText from '../BodyText';
+import BodyText from '../../helpers/BodyText';
 
 import HeroImage from '../../assets/images/amphora-hero.webp';
 import backGround from '../../assets/images/space-bg.webp';
