@@ -16,7 +16,8 @@ export const GlobalStyles = createGlobalStyle`
         --space-lg-padding: 100px 0;
         --text-body: ${toEm(20)};
         --text-color: #fff;
-        --width-full: min(1200px, 90%);
+        --width-full: min(1280px, 90%);
+        --width-md: min(900px, 90%);
     }
 
     @media (max-width:767px) {
