@@ -9,7 +9,8 @@ const Wrapper = (props) => {
 
 // Map API "type" vaules to JSX tag names
 const tagMap = {
-    text: 'span',
+    text: 'div',
+    text2: 'div',
 };
 
 // AnimatedCharacters

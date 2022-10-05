@@ -9,7 +9,10 @@ import HeroImage from '../../assets/images/amphora-hero.webp';
 import backGround from '../../assets/images/space-bg.webp';
 
 const Hero = () => {
-    const heroText = [{ type: 'text', text: 'Amphora Creative' }];
+    const heroText = [
+        { type: 'text', text: 'Amphora' },
+        { type: 'text2', text: 'Creative' },
+    ];
 
     const container = {
         visible: {
