@@ -29,7 +29,7 @@ const Wrapper = styled.div`
 `;
 
 const StyledFigure = styled.figure`
-    left: -25%;
+    left: 0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

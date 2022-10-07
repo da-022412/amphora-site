@@ -60,10 +60,14 @@ const Wrapper = styled.section`
 const StyledHeading = styled(Heading)`
     font-family: var(--font-primary);
     font-size: var(--heading-3);
+    position: relative;
 
     &:after {
+        bottom: -110%;
         content: url(${pattern});
         display: block;
+        left: 0;
+        position: absolute;
     }
 `;
 

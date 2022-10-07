@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
         --font-primary: proxima-nova, sans-serif;
         --heading-1: ${toEm(80)};
         --heading-2: ${toEm(64)};
-        --heading-3: ${toEm(64)};
+        --heading-3: ${toEm(48)};
         --heading-4: ${toEm(28)};
         --heading-weight: 400;
         --space-lg-padding: 100px 0;
