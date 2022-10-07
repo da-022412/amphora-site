@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import Heading from '../../helpers/Heading';
 import AnimatedText from './AnimatedText';
+import FadeIn from '../../helpers/FadeIn';
 import BodyText from '../../helpers/BodyText';
 
 import HeroImage from '../../assets/images/amphora-hero.webp';
@@ -35,9 +36,11 @@ const Hero = () => {
                         })}
                     </Heading>
                 </motion.div>
-                <BodyText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                </BodyText>
+                <FadeIn>
+                    <BodyText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </BodyText>
+                </FadeIn>
                 <Figure>
                     <img src={HeroImage} alt='Hero' width='596' height='556' />
                 </Figure>

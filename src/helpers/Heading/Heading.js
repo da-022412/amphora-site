@@ -9,6 +9,7 @@ const StyledHeading = styled.h1`
     font-family: var(--font-heading);
     font-size: var(--heading-1);
     font-weight: var(--heading-weight);
+    line-height: 1.2;
 `;
 
 Heading.defaultProps = {
