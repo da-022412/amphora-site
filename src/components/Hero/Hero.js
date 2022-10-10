@@ -74,10 +74,16 @@ const Wrapper = styled.section`
         position: absolute;
         width: 100%;
     }
+
+    @media (max-width: 980px) {
+        align-items: flex-start;
+        min-height: 90vw;
+        padding-top: 32px;
+    }
 `;
 
 const StyledDiv = styled.div`
-    margin: auto;
+    margin: 0 auto;
     width: var(--width-full);
 `;
 
@@ -85,6 +91,15 @@ const Figure = styled.div`
     bottom: 0;
     position: absolute;
     right: 10%;
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    @media (max-width: 980px) {
+        max-width: 50%;
+    }
 `;
 
 export default Hero;
