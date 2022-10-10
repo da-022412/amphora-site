@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import Heading from '../../helpers/Heading';
 import AnimatedText from './AnimatedText';
-import FadeIn from '../../helpers/FadeIn';
+import FadeIn from '../../helpers/SlowFadeIn';
 import BodyText from '../../helpers/BodyText';
 
 import HeroImage from '../../assets/images/amphora-hero.webp';

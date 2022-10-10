@@ -22,9 +22,9 @@ export const GlobalStyles = createGlobalStyle`
 
     @media (max-width:767px) {
         :root {
-            --heading-1: ${toEm(36)};
-            --heading-2: ${toEm(28)};
-            --heading-3: ${toEm(20)};
+            --heading-1: ${toEm(40)};
+            --heading-2: ${toEm(48)};
+            --heading-3: ${toEm(36)};
             --heading-4: ${toEm(18)};
         }
     }
