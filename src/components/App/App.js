@@ -4,6 +4,7 @@ import { GlobalStyles } from '../../constants';
 
 import Hero from '../Hero';
 import Portfolio from '../Portfolio';
+import Information from '../Information';
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <GlobalStyles />
             <Hero />
             <Portfolio />
+            <Information />
         </>
     );
 };

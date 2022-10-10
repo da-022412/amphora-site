@@ -37,9 +37,7 @@ const Hero = () => {
                     </Heading>
                 </motion.div>
                 <FadeIn>
-                    <BodyText>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </BodyText>
+                    <BodyText>The Product Studio of Your Dreams</BodyText>
                 </FadeIn>
                 <Figure>
                     <img src={HeroImage} alt='Hero' width='596' height='556' />
