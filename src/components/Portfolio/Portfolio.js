@@ -7,7 +7,8 @@ import pattern from '../../assets/images/pattern-sm-steez.webp';
 import nielsen from '../../assets/images/nielsen-logo.webp';
 import kaplan from '../../assets/images/kaplan-logo.webp';
 import equinox from '../../assets/images/equinox-logo.webp';
-import nwf from '../../assets/images/nwf-logo.webp';
+import dailypay from '../../assets/images/dailypay-logo.webp';
+import halo from '../../assets/images/halo-logo.webp';
 
 const CONTENT = [
     {
@@ -29,10 +30,16 @@ const CONTENT = [
         height: '95',
     },
     {
-        title: 'National Wildlife Federation',
-        img: nwf,
+        title: 'DailyPay',
+        img: dailypay,
         width: '500',
-        height: '198',
+        height: '124',
+    },
+    {
+        title: 'Halo',
+        img: halo,
+        width: '500',
+        height: '250',
     },
 ];
 
